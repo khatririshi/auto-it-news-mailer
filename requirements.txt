@@ -1,0 +1,7 @@
+# Install all dependencies with:
+#   pip install -r requirements.txt
+
+requests==2.32.3        # HTTP client for NewsAPI calls
+python-dotenv==1.0.1    # Loads .env file into os.environ
+schedule==1.2.2         # Pure-Python job scheduler (no cron needed)
+tzdata                  # Timezone database for zoneinfo (needed on Windows)

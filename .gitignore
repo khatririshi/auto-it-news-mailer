@@ -1,0 +1,19 @@
+# .gitignore – keep secrets and clutter out of version control
+
+# Environment file (contains API keys / passwords – NEVER commit)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Log file
+mailer.log
+task_runner.log
+mailer_state.json
+
+# Virtual environment
+venv/
+.venv/
+env/
